@@ -1,0 +1,47 @@
+*{
+  color: white;
+  
+}
+
+.back{
+  box-sizing:content-box;
+  background-image: url("https://portalzine.de/wp-content/uploads/sites/3/2016/09/particles2.jpg") ;
+  background-size:cover;
+  height: 37pc;
+  margin-top: 0;
+}
+.header{
+  box-sizing: content-box;
+  margin-bottom: none;
+}
+.navBar{
+  box-sizing: content-box;
+  display: float;
+  padding-top: 5px;
+  
+}
+.tags{
+  padding-left: 650px;
+  color: white;
+  
+  
+}
+a{
+  text-decoration: none;
+  color: white;
+  
+}
+.navB a{
+  font-size: 15px;
+  color: white;
+}
+
+.main{
+  text-align: center;
+  
+}
+
+/* footer{
+  background: rgb(29,18,206);
+  background: linear-gradient(0deg, rgba(29,18,206,1) 0%, rgba(7,7,165,1) 49%, rgba(17,139,163,0.9895308465182948) 100%);
+} */
