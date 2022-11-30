@@ -1,0 +1,84 @@
+.main{
+    background-color: rgb(12, 12, 12);
+}
+.view{
+    height: 37pc;
+} 
+.view1{
+    height: 27pc;
+}
+.secwidth{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.header{
+    box-sizing: content-box;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+    
+  }
+  .search{
+    margin-right: 20px;
+    
+  }
+  .navBar{
+    box-sizing: content-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    position:static;
+    
+  }
+  .tags{
+    padding-left: 110px;
+    color: white;
+    justify-content: flex-end;
+    padding-right: 50px;
+    
+    
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    
+  }
+  .navB a{
+    font-size: 15px;
+    color: white;
+  }
+  
+  .logo{
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  .logo img{
+    width: 150px;
+    height: 100px;
+  }
+.heroflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heroimg{
+    margin-left: 20px;
+}
+.herodetails{
+    margin-left: 30px;
+    margin-right: 50px;
+}
+.herodetails h2 ,.herodetails p{
+    color: rgb(240, 226, 210);
+}
+.herodetails h2{
+    text-decoration: underline 3px;
+
+}
+.herodetails h1{
+    color: azure;
+}
+.herodetails p{
+    width: 15;
+}
