@@ -3,14 +3,20 @@
 }
 .view{
     height: 37pc;
+    margin-bottom: 10pc;
 } 
 .view1{
     height: 27pc;
 }
 .secwidth{
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
+.headings{
+  color: white;
+}
+
+/* ###### NAv bar ###### */
 .header{
     box-sizing: content-box;
     margin-bottom: 0px;
@@ -41,11 +47,11 @@
   }
   a{
     text-decoration: none;
-    color: white;
+    
     
   }
-  .navB a{
-    font-size: 15px;
+  .tags a{
+    font-size: 16px;
     color: white;
   }
   
@@ -57,6 +63,8 @@
     width: 150px;
     height: 100px;
   }
+
+
 .heroflex{
     display: flex;
     align-items: center;
@@ -81,4 +89,136 @@
 }
 .herodetails p{
     width: 15;
+}
+.firstcontainer{
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.firstcontainerDetails{
+  padding-left: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.firstcontainerDetails a{
+  color: black;
+}
+.secondcontainer{
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+.secondcontainerDetails{
+  padding-left: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.secondcontainerDetails a{
+  color: black;
+}
+
+/* ##########volunteership###########*/
+
+.volunteerContainers{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+}
+.volunfirstContainer,.volunsecondContainer, .volunthirdContainer{
+  background-color:white;
+  width: 225px;
+  padding: 10px;
+  border-radius: 12px;
+}
+.volunfirstContainDetail,.volunsecondContainDetail,.volunthirdContainDetail{
+  padding-top: 5px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+/* #######mentorship############### */
+
+.mentorContainer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+.mentorfirstContainer{
+  background-color:white;
+  width: 225px;
+  padding: 5px;
+  padding-bottom: 10px;
+  border-radius: 12px;
+}
+
+
+/*##############footer############### */
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:row;
+  column-gap: 350px;
+  background-color: rgb(249, 207, 156);
+}
+.viewfooter{
+  height: 27pc;
+}
+.footerimg{
+  border-radius: 40px;
+}
+.footerheading{
+  color: black;
+  font-size: 22px;
+}
+.footer_form{
+  background-color: bisque;
+  padding: 10px 20px ;
+  border-radius: 10px;
+}
+.inputcontain{
+  width: 250px;
+  padding: 20px 20px 20px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.submitbtn{
+  background-color: aquamarine;
+  padding: 12px;
+  border-radius: 10px;
+  border-color: rgb(85, 182, 150);
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.contactIcons{
+  padding-right: 6px;
+}
+.instacontactIcons{
+  clip-path: circle(45.0% at 50% 50%);
+  width: 70px;
+}
+.facecontactIcons{
+  width: 60px;
+}
+.gitcontactIcons{
+  width: 60px;
+}
+.linkedcontactIcons{
+  width: 60px;
+}
+.twittercontactIcons{
+  width: 60px;
 }
