@@ -1,0 +1,241 @@
+.main{
+    background-color: rgb(46, 163, 93);
+}
+.view1{
+    height: 29pc;
+}
+.view{
+  height: 50pc;
+} 
+.viewbadges{
+  height: 30pc;
+}
+.headings{
+    font-size: xx-large;
+    color:whitesmoke;
+    text-decoration:5px underline;
+}
+.secwidth{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.graphview{
+    height: 38pc;  /* for 4 container 76pc*/
+} 
+
+/* ######nav bar######*/
+
+.header{ 
+    box-sizing: content-box;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+    
+  }
+  .search{
+    margin-right: 20px;
+    
+  }
+  .navBar{
+    box-sizing: content-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    position:static;
+    
+  }
+  .tags{
+    padding-left: 110px;
+    color: white;
+    justify-content: flex-end;
+    padding-right: 50px;
+    
+    
+  }
+  a{
+    text-decoration: none;
+    
+    
+  }
+  .tags a{
+    font-size: 16px;
+    color: white;
+  }
+  
+  .logo{
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  .logo img{
+    width: 150px;
+    height: 100px;
+  }
+/*####### navbar done ####### */
+.heroSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-right: 20px;
+}
+.heroSectionImg{
+    width: 600px;
+    margin-right: 100px;
+    
+}
+.heroSectionDetails p{
+    color: whitesmoke;
+    font-size: 19px;
+}
+.sectionHead{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size:x-larger;
+  color: white;
+
+}
+
+.graphhr{
+    rotate:90deg;
+    width: 500px;
+    border:2px solid rgb(210, 210, 210);
+    fill:rgb(210, 210, 210);
+}
+
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(103, 181, 134);
+    width: 550px;
+    border-radius: 15px;
+    margin: 20px;
+    margin-right: 10px;
+
+}
+.containerImg{
+    width: 150px;
+    padding: 20px 40px 20px 10px;
+}
+.container2{
+    margin-left: 630px;
+}
+.mainContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.moocsCourses{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.moocContainer{
+  width: 200px;
+  background-color: white;
+  margin: 30px;
+
+}
+.moocImg{
+  width: 200px;
+  height: 225px;
+}
+.moocDetail{
+  padding-bottom: 15px;
+  padding-top: 10px;
+  font-size: 17px;
+  
+  
+}
+.moocDetail a{
+  text-decoration: none;
+  color:black ;
+
+}
+
+
+.badges{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badgeContain{
+  margin: 30px;
+}
+
+.badgeImg{
+  width: 225px;
+  height: 250px;
+}
+
+
+
+
+
+/*##############footer############### */
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    column-gap: 350px;
+    background-color: rgb(249, 207, 156);
+  }
+  .viewfooter{
+    height: 27pc;
+  }
+  .footerimg{
+    border-radius: 40px;
+  }
+  .footerheading{
+    color: black;
+    font-size: 22px;
+  }
+  .footer_form{
+    background-color: bisque;
+    padding: 10px 20px ;
+    border-radius: 10px;
+  }
+  .inputcontain{
+    width: 250px;
+    padding: 20px 20px 20px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  .submitbtn{
+    background-color: aquamarine;
+    padding: 12px;
+    border-radius: 10px;
+    border-color: rgb(85, 182, 150);
+  }
+  .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .contactIcons{
+    padding-right: 6px;
+  }
+  .instacontactIcons{
+    clip-path: circle(45.0% at 50% 50%);
+    width: 70px;
+  }
+  .facecontactIcons{
+    width: 60px;
+  }
+  .gitcontactIcons{
+    width: 60px;
+  }
+  .linkedcontactIcons{
+    width: 60px;
+  }
+  .twittercontactIcons{
+    width: 60px;
+  }
