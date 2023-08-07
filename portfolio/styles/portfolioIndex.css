@@ -1,6 +1,6 @@
 :root{
   --primaryBack : rgb(23, 23, 45);
-  --textColor : white;
+  --textColor : #fff;
 }
 *{
   color: var(--textColor) ;
@@ -27,17 +27,17 @@
   
 }
 .navBar{
-  box-sizing: content-box;
+  box-sizing: border-box;
   display:flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap:wrap;
   position:static;
   
 }
 .tags{
   padding-left: 110px;
-  color: white;
+  color: var(--textColor);
   justify-content: flex-end;
   padding-right: 50px;
   
@@ -45,13 +45,14 @@
 }
 a{
   text-decoration: none;
-  color: white;
+  color:var(--textColor);
   
 }
 .navB a{
   font-size: 15px;
-  color: white;
+  color: var(--textColor);
 }
+
 
 .logo{
   margin-left: 20px;
@@ -62,6 +63,30 @@ a{
   height: 100px;
 }
 
+.h-text{
+  padding-top: 200px;
+  margin-left: 60px;
+}
+.h-animate .text{
+  position: relative;
+  color: var(--textColor);
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.h-animate .text .first-text{
+  color: var(--textColor);
+
+}
+@keyframes animate{
+  40%, 60%{
+    left:calc(100% + 4px);
+
+  }
+  100%{
+    left: 0%;
+  }
+}
 .main{
   text-align: center;
   
