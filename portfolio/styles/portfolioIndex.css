@@ -1,0 +1,148 @@
+:root{
+  --primaryBack : rgb(23, 23, 45);
+  --textColor : white;
+}
+*{
+  color: var(--textColor) ;
+  margin: 0;
+  padding: 0;
+}
+
+.back{
+  box-sizing:border-box;
+  background-color: var(--primaryBack);
+  /* background-image: url("https://portalzine.de/wp-content/uploads/sites/3/2016/09/particles2.jpg") ; */
+  background-size:cover;
+  height: 100vh;
+  width: 100%;
+  margin-top: 0;
+}
+.header{
+  box-sizing: content-box;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.search{
+  margin-right: 20px;
+  
+}
+.navBar{
+  box-sizing: content-box;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  position:static;
+  
+}
+.tags{
+  padding-left: 110px;
+  color: white;
+  justify-content: flex-end;
+  padding-right: 50px;
+  
+  
+}
+a{
+  text-decoration: none;
+  color: white;
+  
+}
+.navB a{
+  font-size: 15px;
+  color: white;
+}
+
+.logo{
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.logo img{
+  width: 150px;
+  height: 100px;
+}
+
+.main{
+  text-align: center;
+  
+}
+
+
+
+/*##############footer############### */
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:row;
+  column-gap: 350px;
+  background-color: rgb(249, 207, 156);
+}
+.viewfooter{
+  height: 27pc;
+}
+.footerimg{
+  border-radius: 40px;
+}
+.footerheading{
+  color: black;
+  font-size: 22px;
+}
+.footer_form{
+  background-color: bisque;
+  padding: 10px 20px ;
+  border-radius: 10px;
+}
+.inputcontain{
+  width: 250px;
+  padding: 20px 20px 20px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.submitbtn{
+  background-color: rgb(72, 210, 88);
+  padding: 12px;
+  border-radius: 10px;
+  border-color: rgb(85, 182, 150);
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.contactIcons{
+  padding-right: 6px;
+}
+.instacontactIcons{
+  clip-path: circle(45.0% at 50% 50%);
+  width: 70px;
+}
+.facecontactIcons{
+  width: 60px;
+}
+.gitcontactIcons{
+  width: 60px;
+}
+.linkedcontactIcons{
+  width: 60px;
+}
+.twittercontactIcons{
+  width: 60px;
+}
+
+/* #####scroll bar designing#### */
+::-webkit-scrollbar{
+  width: 8px;
+  background-color: black;
+}
+::-webkit-scrollbar-track{
+  box-shadow:inset 0 0 6px rgb(45, 45, 45);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: rgb(255, 55, 255); 
+  border-radius: 10px;
+}
+/* ####scroll bar designing#### */

@@ -1,0 +1,172 @@
+.main{
+    background-color: rgb(66, 26, 103);
+}
+
+.view{
+    height: 32pc;
+} 
+.view1{
+    height: 29pc;
+}
+.secwidth{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.headings{
+  font-size: xx-large;
+}
+
+
+.header{                  /* ######nav bar######*/
+    box-sizing: content-box;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+    
+  }
+  .search{
+    margin-right: 20px;
+    
+  }
+  .navBar{
+    box-sizing: content-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    position:static;
+    
+  }
+  .tags{
+    padding-left: 110px;
+    color: white;
+    justify-content: flex-end;
+    padding-right: 50px;
+    
+    
+  }
+  a{
+    text-decoration: none;
+    
+    
+  }
+  .tags a{
+    font-size: 16px;
+    color: white;
+  }
+  
+  .logo{
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  .logo img{
+    width: 150px;
+    height: 100px;
+  }
+/*####### navbar done ####### */
+
+
+.herocontent{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+    
+}      
+  
+.herosectionDetails{
+    color: white;
+    margin-right: 200px;
+}
+.herosectionImg img{
+    height: 27pc;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+/*##############footer############### */
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    column-gap: 350px;
+    background-color: rgb(249, 207, 156);
+  }
+  .viewfooter{
+    height: 27pc;
+  }
+  .footerimg{
+    border-radius: 40px;
+  }
+  .footerheading{
+    color: black;
+    font-size: 22px;
+  }
+  .footer_form{
+    background-color: bisque;
+    padding: 10px 20px ;
+    border-radius: 10px;
+  }
+  .inputcontain{
+    width: 250px;
+    padding: 20px 20px 20px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  .submitbtn{
+    background-color: rgb(72, 210, 88);
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    border-color: rgb(85, 182, 150);
+  }
+  .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .contactIcons{
+    padding-right: 6px;
+  }
+  .instacontactIcons{
+    clip-path: circle(45.0% at 50% 50%);
+    width: 70px;
+  }
+  .facecontactIcons{
+    width: 60px;
+  }
+  .gitcontactIcons{
+    width: 60px;
+  }
+  .linkedcontactIcons{
+    width: 60px;
+  }
+  .twittercontactIcons{
+    width: 60px;
+  }
+
+
+
+/* #####scroll bar designing#### */
+::-webkit-scrollbar{
+  width: 8px;
+  background-color: black;
+}
+::-webkit-scrollbar-track{
+  box-shadow:inset 0 0 6px rgb(45, 45, 45);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: rgb(255, 55, 255); 
+  border-radius: 10px;
+}
+/* ####scroll bar designing#### */
