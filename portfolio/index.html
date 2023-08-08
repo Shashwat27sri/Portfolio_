@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
+    <!-- favicon  -->
     <link id='favicon' rel="shortcut icon" href="images/hero.png" type="image/x-png">
+    
+    <!-- Font Awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <title>Portfolio | Shashwat Srivastava</title>
     <link rel="stylesheet" href="styles/portfolioIndex.css">
 
@@ -22,7 +26,7 @@
                     <a href="http://127.0.0.1:5500/portfolio/index.html"><img src="./images/shashwat1.jpg" style="border-radius: 10px;" width="100px" id="hi" alt="" srcset=""></a>
                 </div>
                 
-                <div id="menu" class="fas fa-bars"></div>
+                <!-- <div id="menu" class="fas fa-bars"></div> -->
                 <div class="tags">
                     <ul>
                     <li><a class="active" href="http://127.0.0.1:5500/portfolio/index.html">Home</a></li>
@@ -43,20 +47,28 @@
         <div class="main ">
             <div id="particles-js"></div>
 
-            <div class="h-text">
-                <div class="h-animate">
-                    <span class="text first-text">Hi,👋 I'm &nbsp;</span>
-                    <span class="text sec-text">Shashwat Srivastava</span>
+            <div class="content">
+                <h2>Hi There,<br/> I'm Shashwat <span>Srivastava</span></h2>
+                <p>I am into <span class="typing-text"></span></p>
+                <a href="#about" class="btn"><span>About Me</span>
+                    <i class="fas fa-arrow-circle-down"></i>
+                </a>
+                <div class="socials">
+                    <ul class="social-icons">
+                      <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/shashwat-srivastava-718209203/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+                      <li><a class="github" aria-label="GitHub" href="https://github.com/Shashwat27sri" target="_blank"><i class="fab fa-github"></i></a></li>
+                      <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/ShashwatSri27" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                      <li><a class="telegram" aria-label="Telegram" href="#" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+                      <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/shashwat7094"><i class="fab fa-instagram" target="_blank"></i></a></li>
+                      <li><a class="facebook" aria-label="Facebook" href="https://www.facebook.com/shashwat.srivastava.5249"><i class="fab fa-facebook" target="_blank"></i></a></li>
+                    </ul>
+                  </div>
                 </div>
+            <div class="image">
+                <img draggable="false" class="tilt" src="images/hero.png" alt="">
+            </div>
             </div>
 
-
-
-            <!-- <p class="hi"><h1>Hi<span class="wave"></span>I'm Shashwat Srivatava!</h1></p>
-            <p>_dev.Shashwat@Sri_</p>
-            <br> -->
-            <img src="./images/images.png" alt="shashwat" srcset=""> 
-            
         </div>
     </div>
     <!-- ##########footer############# -->
@@ -98,12 +110,19 @@
 
     <!-- custom js -->
     <script src="script.js"></script>
+
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
     <!-- particles effect js -->
     <script src="./assets/js/particles.min.js"></script>
     <script src="./assets/js/app.js"></script>
 
-    <!-- <script src="/assets/js/script.js"></script> -->
+    <!-- typed.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="assets/js/script.js"></script>
 
 </body>
 </html>
