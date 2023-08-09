@@ -15,6 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing:border-box;
+  transition: all 0.2s linear;
 }
 
 *::selection {
@@ -309,11 +310,11 @@ header .logo {
 }
 .about .row .image img {
   margin: 4rem;
-  width: 30rem;
+  width: 32rem;
   height: auto;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  mix-blend-mode: luminosity;
+  mix-blend-mode:darken;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -370,6 +371,7 @@ header .logo {
   font-weight: 600;
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
+  text-decoration: none;
 }
 .resumebtn .btn i {
   margin-left: 0.3rem;
@@ -405,9 +407,6 @@ header .logo {
 }
 /* about media queries ends*/
 /* about section ends */
-
-
-
 
 
 
