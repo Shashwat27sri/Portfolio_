@@ -67,6 +67,10 @@ var typed = new Typed(".typing-text", {
 });
 // <!-- typed js effect ends -->
 
+
+
+// fetching skills data from json file
+
 async function fetchData(type = "skills") {
   let response
   type === "skills" ?
@@ -77,20 +81,31 @@ async function fetchData(type = "skills") {
   return data;
 }
 
-// function showSkills(skills) {
-//   let skillsContainer = document.getElementById("skillsContainer");
-//   let skillHTML = "";
-//   skills.forEach(skill => {
-//       skillHTML += `
-//       <div class="bar">
-//             <div class="info">
-//               <img src=${skill.icon} alt="skill" />
-//               <span>${skill.name}</span>
-//             </div>
-//           </div>`
-//   });
-//   skillsContainer.innerHTML = skillHTML;
-// }
+function showSkills(skills) {
+  let skillsContainer = document.getElementById("skillsContainer");
+  let skillHTML = "";
+  skills.forEach(skill => {
+      skillHTML += `
+      <div class="bar">
+            <div class="info">
+              <img src=${skill.icon} alt="skill" />
+              <span>${skill.name}</span>
+            </div>
+          </div>`
+  });
+  skillsContainer.innerHTML = skillHTML;
+}
+
+// fetching done
+
+
+// to display the fetched skills 
+fetchData().then(data => {
+  showSkills(data);
+});
+
+// skill display done 
+
 
 // function showProjects(projects) {
 //   let projectsContainer = document.querySelector("#work .box-container");
@@ -134,9 +149,6 @@ async function fetchData(type = "skills") {
 
 // }
 
-// fetchData().then(data => {
-//   showSkills(data);
-// });
 
 // fetchData("projects").then(data => {
 //   showProjects(data);
