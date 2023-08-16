@@ -4,13 +4,19 @@
 
 
 :root{
-  --navBack : #fff;
+  --white : #fff;
+  --heroback:#212325;
+  --spantext:#ff7b00;
+  --neonpurple:rgb(115, 3, 167);
+  --yellowlink: #f3ca13;
   --textColor : #0e2431;
   --bodyBack: #ffffff;
   --selection:#2b3dda;
   --socialIcon: #09011b;
   --boxh3: #012970;
   --boxh4:rgb(34, 109, 0);
+  
+  
 }
 *{
   /* color: var(--textColor) ; */
@@ -32,7 +38,7 @@ html {
 }
 
 body{
-  background: var(--bodyBack);
+  background: var(--bodyback);
   font-family: "Poppins", sans-serif;
 }
 
@@ -48,7 +54,7 @@ section {
   text-align: center;
 }
 .heading span {
-  color: rgb(115, 3, 167);
+  color:var(--neonpurple);
 }
 header .logo {
   font-size: 1.9rem;
@@ -61,13 +67,13 @@ header .logo {
 
 .header{
   box-sizing: content-box;
-  background-color:var(--navBack);
+  background-color:var(--heroback);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
-  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
+  box-shadow: 0 1px 4px rgba(85, 92, 99, 0.3);
   padding: 1.7rem 10%;
   padding-bottom: 2rem;
   height: 3.0rem;
@@ -106,7 +112,7 @@ header .logo {
 }
 .header .navBar .tags ul li a {
   font-size: 1.57rem;
-  color:var(--textColor);
+  color:var(--white);
   font-weight: 600;
   text-decoration:none;
   letter-spacing: 0.04rem;
@@ -115,8 +121,8 @@ header .logo {
 
 .header .navBar .tags ul li a.active,
 .header .navBar .tags ul li a:hover {
-  color: #011aff;
-  border-bottom: 0.2rem solid #011aff;
+  color: var(--yellowlink);
+  border-bottom: 0.2rem solid var(--yellowlink);
   padding: 0.5rem 0;
 }
 
@@ -127,7 +133,7 @@ header .logo {
   border: 0px rgba(0, 0, 0, 0) solid;
   font-family: poppins;
   transition: 0.5s;
-  background-color: #ebcb16e3;
+  background-color: var(--yellowlink);
   font-size: 1.57rem;
   color:var(--textColor);
   font-weight: 600;
@@ -135,7 +141,7 @@ header .logo {
 }
 
 .navBar .btn:hover{
-  background-color: #e1c00a;
+  background-color: #f8cd0b;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
 }
 /* navbar ends */
@@ -149,6 +155,7 @@ header .logo {
   gap: 1.5rem;
   min-height: 100vh;
   align-items: center;
+  background-color: var(--heroback);
 }
 .main #particles-js {
   position: absolute;
@@ -188,24 +195,27 @@ header .logo {
 .main .content h2 {
   font-size: 5rem;
   font-weight: 800;
-  color: #002057;
+  color: #ffffff;
 }
 .main .content h2 span {
   font-size: 5rem;
   font-weight: 800;
-  color: #ff7b00;
+  color: var(--spantext);
 }
 .main .content p {
   font-size: 2.5rem;
-  color: #000;
+  color: var(--white);
   font-weight: 600;
   padding: 1rem 0;
 }
 .main .content p span {
   font-size: 2.5rem;
-  color: rgb(148, 8, 8);
+  color: var(--spantext);
   font-weight: 600;
   padding: 1rem 0;
+}
+.main .content a{
+  text-decoration: none;
 }
 .main .btn {
   margin-top: 1rem;
@@ -214,9 +224,9 @@ header .logo {
   padding: 1.6rem 3rem;
   border-radius: 4em;
   transition: 0.5s;
-  color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
+  color: var(--textColor);
+  background: var(--yellowlink);
+  box-shadow: 0px 2px 18px #f9cd0b;
   font-family: "Nunito", sans-serif;
 }
 .main .btn span {
@@ -232,7 +242,7 @@ header .logo {
   transition: 0.3s;
 }
 .main .btn:hover {
-  background: #1a047e;
+  background: #f8cd0b;
 }
 .main .btn:hover i {
   transform: translateX(5px);
@@ -256,7 +266,7 @@ header .logo {
   font-size: 2rem;
   display: inline-block;
   line-height: 44px;
-  color: var(--navBack);
+  color: var(--white);
   background-color:var(--socialIcon) ;
   width: 44px;
   height: 44px;
@@ -297,7 +307,7 @@ header .logo {
 
 /* about section starts */
 .about {
-  background: var(--bodyBack);
+  background: linear;
 }
 .about .row {
   display: flex;
@@ -359,6 +369,9 @@ header .logo {
 }
 .resumebtn {
   margin-top: 6rem;
+}
+.resumebtn a{
+  text-decoration: none;
 }
 .resumebtn .btn {
   padding: 1.7rem 3rem;
@@ -1188,6 +1201,30 @@ form .button-area {
   }
 }
 /* footer section ends */
+
+
+/* common media queries starts*/
+@media  (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+  body {
+    padding-right: 0;
+  }
+  section {
+    padding: 2rem;
+  }
+  .main .content{
+    padding-left: 2rem;
+    padding-top: 10rem;
+  }
+}
+@media screen and (max-width: 815px){
+  .main .content {
+    padding-top:10rem;
+  }
+} 
+/* common media queries ends*/
 
 
 /* #####scroll bar designing#### */
