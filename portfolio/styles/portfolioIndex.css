@@ -6,6 +6,7 @@
 :root{
   --white : #fff;
   --heroback:#212325;
+  --herolight:#333333;
   --spantext:#ff7b00;
   --neonpurple:rgb(115, 3, 167);
   --yellowlink: #f3ca13;
@@ -15,6 +16,7 @@
   --socialIcon: #09011b;
   --boxh3: #012970;
   --boxh4:rgb(34, 109, 0);
+  --projectsection:#412205;
   
   
 }
@@ -147,6 +149,8 @@ header .logo {
 /* navbar ends */
 
 
+
+
 /* hero section starts*/
 .main {
   position: relative;
@@ -226,7 +230,7 @@ header .logo {
   transition: 0.5s;
   color: var(--textColor);
   background: var(--yellowlink);
-  box-shadow: 0px 2px 18px #f9cd0b;
+  box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.5);
   font-family: "Nunito", sans-serif;
 }
 .main .btn span {
@@ -428,7 +432,8 @@ header .logo {
 /* skills section starts */
 .skills {
   min-height: 100vh;
-  background: linear-gradient(to top, #57059e, #4a00e0);
+  background: linear-gradient(to bottom, var(--heroback), var(--herolight), var(--heroback));
+  /* background-color: var(--projectsection); */
 }
 .skills h2 {
   color: #fff;
@@ -437,7 +442,7 @@ header .logo {
   color: rgb(255, 230, 0);
 }
 .skills .container {
-  background: rgba(0, 0, 22, 0.4);
+  background: rgb(255, 255, 255);
   color: #fff;
   border-radius: 1rem;
   padding: 2rem;
@@ -455,12 +460,12 @@ header .logo {
   margin-bottom: 15px;
   padding: 10px;
   border-radius: 1rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(37, 38, 44, 0.2);
   background: rgba(0, 0, 22, 0.9);
   transition: 0.2s;
 }
 .skills .container .bar:hover {
-  box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
+  box-shadow: 0 8px 10px rgba(37, 38, 44, 0.8) !important;
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
 .skills .container .bar .info {
@@ -535,7 +540,7 @@ header .logo {
 
 /* education section starts */
 .education {
-  background: #e5ecfb;
+  background: #f1f1f1;
   min-height: 80vh;
 }
 .education .qoute {
@@ -644,7 +649,7 @@ header .logo {
 /* work section starts */
 .work {
   /* background: #010124; */
-  background: linear-gradient(to bottom, #000031, #00002c);
+  background: var(--heroback);
 }
 .work h2 {
   color: #fff;
@@ -941,8 +946,14 @@ header .logo {
 
 /* contact section starts */
 .contact {
-  background: #e5ecfb;
+  background: var(--heroback);
   min-height: 60vh;
+}
+.contact .heading {
+  color: var(--white);
+}
+.contact .heading span{
+  color: var(--yellowlink);
 }
 .contact .container {
   max-width: 1050px;
@@ -966,6 +977,8 @@ header .logo {
   width: 100%;
   height: 40rem;
   position: relative;
+  /* mix-blend-mode:darken; */
+  filter: opacity(0.9);
 }
 .contact .content form {
   width: 45%;
@@ -1132,6 +1145,7 @@ form .button-area {
   color: rgb(238, 238, 238);
   padding: 0.3rem 0;
   display: block;
+  text-decoration: none;
 }
 .footer .box-container .box a:hover {
   color: #ffae00;
@@ -1229,15 +1243,15 @@ form .button-area {
 
 /* #####scroll bar designing#### */
 ::-webkit-scrollbar{
-  width: 5px;
+  width: 4px;
   background-color: transparent;
 }
 ::-webkit-scrollbar-track{
   /* box-shadow:inset 0 0 6px rgb(45, 45, 45); */
-  border-radius: 10px;
+  border-radius: 20px;
 }
 ::-webkit-scrollbar-thumb{
-  background: rgb(155, 128, 252); 
+  background: var(--neonpurple); 
   border-radius: 10px;
 }
 /* ####scroll bar designing ends #### */
