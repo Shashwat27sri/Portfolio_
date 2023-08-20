@@ -75,7 +75,7 @@ header .logo {
   left: 0;
   right: 0;
   z-index: 1000;
-  box-shadow: 0 1px 4px rgba(85, 92, 99, 0.3);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
   padding: 1.7rem 10%;
   padding-bottom: 2rem;
   height: 3.0rem;
@@ -148,8 +148,19 @@ header .logo {
 }
 /* navbar ends */
 
+/* hamburger navbar */
 
-
+#menu{
+  font-size: 3rem;
+  cursor: pointer;
+  color: rgb(24, 2, 63);
+  display: none;
+}
+@media screen and (max-width:1250px) {
+  #menu{
+    display: block;
+  }
+}
 
 /* hero section starts*/
 .main {
@@ -948,6 +959,7 @@ header .logo {
 .contact {
   background: var(--heroback);
   min-height: 60vh;
+  
 }
 .contact .heading {
   color: var(--white);
