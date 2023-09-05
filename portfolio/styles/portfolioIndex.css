@@ -76,16 +76,17 @@ header .logo {
   right: 0;
   z-index: 1000;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-  padding: 1.7rem 10%;
+  padding: 1.7rem 8%;
   padding-bottom: 2rem;
   height: 3.0rem;
+  /* padding-left: 10%; */
   
 }
 
 .navBar{
   box-sizing: border-box;
   display:flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
   flex-wrap:wrap;
   position:static;
@@ -97,12 +98,13 @@ header .logo {
   margin-top: 0px;
 }
 .logo img{
-  width: 8rem;
-  height: 4rem;
+  width: 27rem;  
+  height: 5rem;
+
 }
 
 
-.header .navBar ul {
+.header .navBar .tags ul {
   list-style: none;
   display: flex;
   justify-content: center;
@@ -156,9 +158,10 @@ header .logo {
   color: rgb(24, 2, 63);
   display: none;
 }
-@media screen and (max-width:1250px) {
-  #menu{
-    display: block;
+
+@media screen and (max-width:1300px) {
+  .navBar .btn{
+    display: none;
   }
 }
 
@@ -882,12 +885,14 @@ header .logo {
   display: flex;
   justify-content: center;
   /* margin-top: 10px; */
+  
 }
 .morebtn .btn {
   position: relative;
   line-height: 0;
   padding: 1.6rem 3rem;
   border-radius: 0.5em;
+
   transition: 0.5s;
   color: #fff;
   background: #2506ad;
@@ -1028,7 +1033,7 @@ form .message textarea {
   font-family: "Poppins", sans-serif;
   border-radius: 5px;
   border: 1px solid rgb(51, 51, 51);
-  background: #e5ecfb;
+  background: #f8edae65;
 }
 .field input::placeholder,
 .message textarea::placeholder {
@@ -1076,13 +1081,13 @@ form .button-area {
   cursor: pointer;
   border-radius: 5px;
   padding: 13px 25px;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  background: #daa608;
+  box-shadow: 0px 5px 10px rgba(36, 37, 38, 0.6);
   transition: 0.3s ease;
   font-family: "Nunito", sans-serif;
 }
 .button-area button:hover {
-  background: #421cecf5;
+  background: #da7c08;
 }
 
 .button-area button i {
@@ -1092,6 +1097,10 @@ form .button-area {
   font-size: 1.5rem;
   transition: 0.3s;
   color: #fff;
+}
+.button-area button a{
+  color: var(--bodyBack);
+  text-decoration: none;
 }
 .button-area button:hover i {
   left: 8px;

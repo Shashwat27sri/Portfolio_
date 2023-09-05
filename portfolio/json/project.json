@@ -40,45 +40,46 @@
     }
   },
   {
-    "name": "#",
-    "desc": "#",
-    "image": "instagrammern",
+    "name": "Enord Community MERN",
+    "desc": "Enord Community for Drone and Tech enthusiasts. Build using MERN Stack and authentication using Firebase.",
+    "image": "EnordCommunity",
     "category": "mern",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": " DigiRepo E-Library",
+    "desc": "An online portal having a collection of thousand's of interesting books and novels for users.",
+    "image": "E- library",
+    "category": "basicweb",
     "links": {
       "view": "#",
       "code": "#"
     }
   },
   {   
-    "name": "horse",
-    "desc": "#",
-    "image": "horse",
-    "category": "mern",
+    "name": "Personal Portfolio",
+    "desc": "Personal websiite having a great collection & representation of my work and my experience. Just give it an eyes on and connect.",
+    "image": "portfolio",
+    "category": "basicweb",
     "links": {
       "view": "#",
       "code": "#"
     }
   },
   {
-    "name": "#",
-    "desc": "#",
-    "image": "resumegen",
-    "category": "mern",
+    "name": "Nykaa UI Clone ",
+    "desc": "Front-end Nykaa Clone providing a real user interface developed using Basic HTML, CSS.",
+    "image": "nykaa",
+    "category": "frontend-web",
     "links": {
       "view": "#",
       "code": "#"
     }
   },
-  {
-    "name": "#",
-    "desc": "#",
-    "image": "reactprojects",
-    "category": "mern",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
+  
   {
     "name": "#",
     "desc": "#",
