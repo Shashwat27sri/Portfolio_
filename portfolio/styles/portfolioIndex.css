@@ -88,7 +88,7 @@ header .logo {
   display:flex;
   justify-content:space-between;
   align-items: center;
-  flex-wrap:wrap;
+  flex-wrap:nowrap;
   position:static;
   
 }
@@ -109,6 +109,7 @@ header .logo {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap:wrap;
 }
 
 .header .navBar .tags ul li {
@@ -164,6 +165,56 @@ header .logo {
     display: none;
   }
 }
+@media screen and (max-width : 768px){
+  .navBar .tags{
+    display: none;
+  }
+  /* .header .tags {
+    position: fixed;
+    top:6.6rem;
+    right: 0%;
+    width: 55%;
+    height: 100%;
+    text-align: left;
+    align-items: flex-start;
+    background-color: var(--heroback);
+  }*/
+  /* #menu{
+    display: block;
+  } */
+  /*.header .tags ul {
+    flex-flow: column;
+    padding: 1rem;
+  }
+  .header .tags ul li {
+    text-align: center;
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    width: 26rem;
+  }
+  .header .tags ul li a {
+    display: block;
+    padding: 1rem;
+    text-align: left;
+    color: #fff;
+    font-size: 2rem;
+  }
+  .header .tags ul li a.active,
+  .header .tags ul li a:hover {
+    padding: 1rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    border-bottom: 0.5rem solid var(--yellowlink);
+  }
+  .fa-times {
+    transform: rotate(180deg);
+  }
+  .header .tags .nav-toggle {
+    right: 0;
+  } */
+}
+
 
 /* hero section starts*/
 .main {
@@ -760,6 +811,7 @@ header .logo {
   border: 2px solid #fff;
   box-shadow: 0px 5px 10px rgba(65, 84, 241, 0.4);
   text-align: center;
+  text-decoration: none;
 }
 .work .viewall .btn span {
   font-weight: 600;
@@ -782,7 +834,10 @@ header .logo {
 
 
 /* experience section */
-
+.experience{
+  min-height: 70vh;
+  padding: 2rem 9%;
+}
 
 .experience .timeline{
   position: relative;
