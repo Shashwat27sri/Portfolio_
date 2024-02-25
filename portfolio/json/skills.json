@@ -24,6 +24,23 @@
       "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
   },
   {
+      "name": "Nodejs",
+      "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+  },
+  {
+      "name": "Expressjs",
+      "icon": "https://img.icons8.com/officel/48/express-js.png"
+      
+  },
+  {
+      "name": "MongoDB",
+      "icon": "https://img.icons8.com/color/48/mongodb.png"
+  },
+  {
+      "name": "npm",
+      "icon": "https://img.icons8.com/color/48/npm.png"
+  },
+  {
       "name": "C",
       "icon":"https://img.icons8.com/fluency/48/c-programming.png"
   },

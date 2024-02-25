@@ -3,7 +3,7 @@
     "name": "#",
     "desc": "#",
     "image": "notystackandroid",
-    "category": "android",
+    "category": "graphicDesign",
     "links": {
       "view": "#",
       "code": "#"
@@ -13,7 +13,7 @@
     "name": "#",
     "desc": "#",
     "image": "sppuprepandroid",
-    "category": "android",
+    "category": "graphicDesign",
     "links": {
       "view": "#",
       "code": "#"
@@ -23,7 +23,7 @@
     "name": "#",
     "desc": "#",
     "image": "newsboxandroid",
-    "category": "android",
+    "category": "graphicDesign",
     "links": {
       "view": "#",
       "code": "#"
@@ -33,7 +33,7 @@
     "name": "#",
     "desc": "#",
     "image": "weatherlyandroid",
-    "category": "android",
+    "category": "graphicDesign",
     "links": {
       "view": "#",
       "code": "#"
@@ -73,7 +73,7 @@
     "name": "Nykaa UI Clone ",
     "desc": "Front-end Nykaa Clone providing a real user interface developed using Basic HTML, CSS.",
     "image": "nykaa",
-    "category": "frontend-web",
+    "category": "basicweb",
     "links": {
       "view": "#",
       "code": "https://github.com/Shashwat27sri/Nykaa_Clown"
@@ -84,7 +84,7 @@
     "name": "#",
     "desc": "#",
     "image": "flipkartphp",
-    "category": "lamp",
+    "category": "react",
     "links": {
       "view": "#",
       "code": "#"
@@ -154,7 +154,7 @@
     "name": "#",
     "desc": "#",
     "image": "webviewapp",
-    "category": "android",
+    "category": "graphicDesign",
     "links": {
       "view": "#",
       "code": "#"
@@ -164,7 +164,7 @@
     "name": "#",
     "desc": "#",
     "image": "tsfbank",
-    "category": "lamp",
+    "category": "react",
     "links": {
       "view": "#",
       "code": "#"
@@ -224,7 +224,7 @@
     "name": "#",
     "desc": "#",
     "image": "basicbank",
-    "category": "android",
+    "category": "graphicDesign",
     "links": {
       "view": "#",
       "code": "#"
@@ -244,7 +244,7 @@
     "name": "#",
     "desc": "#",
     "image": "phppblform",
-    "category": "lamp",
+    "category": "react",
     "links": {
       "view": "#",
       "code": "#"
