@@ -405,3 +405,20 @@ header .logo {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+
+
+/* #####scroll bar designing#### */
+::-webkit-scrollbar{
+  width: 4px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-track{
+  /* box-shadow:inset 0 0 6px rgb(45, 45, 45); */
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb{
+  background: var(--neonpurple); 
+  border-radius: 10px;
+}
+/* ####scroll bar designing ends #### */

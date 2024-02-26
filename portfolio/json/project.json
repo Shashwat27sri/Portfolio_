@@ -1,45 +1,5 @@
 [
   {
-    "name": "Social Media- GermanLeap ",
-    "desc": "Instagram post Design For GermanLeap ",
-    "image": "Germanleap",
-    "category": "graphicDesign",
-    "links": {
-      "view": "https://www.canva.com/design/DAF7uPY5nGI/iTWBHlnYzDTfVzVRhoMrCA/view?utm_content=DAF7uPY5nGI&utm_campaign=designshare&utm_medium=link&utm_source=editor",
-      "code": "https://www.canva.com/design/DAF7uPY5nGI/iTWBHlnYzDTfVzVRhoMrCA/view?utm_content=DAF7uPY5nGI&utm_campaign=designshare&utm_medium=link&utm_source=editor"
-    }
-  },
-  {
-    "name": "Print Media - Delhi Landscape ",
-    "desc": " Flyer Design for Delhi Landscape Innovation ",
-    "image": "DelhiLandscape",
-    "category": "graphicDesign",
-    "links": {
-      "view": "https://www.canva.com/design/DAF8wKlKaMY/wKKnCt99ky509utQIdOI-A/view?utm_content=DAF8wKlKaMY&utm_campaign=designshare&utm_medium=link&utm_source=editor",
-      "code": "https://www.canva.com/design/DAF8wKlKaMY/wKKnCt99ky509utQIdOI-A/view?utm_content=DAF8wKlKaMY&utm_campaign=designshare&utm_medium=link&utm_source=editor"
-    }
-  },
-  {
-    "name": "Magzine Design",
-    "desc": "Magzine Design for 2024 Proposal",
-    "image": "magzineProposal",
-    "category": "graphicDesign",
-    "links": {
-      "view": "https://www.canva.com/design/DAF8qsguhmM/FvQkYbGz3FH7BGcW4mtUog/view?utm_content=DAF8qsguhmM&utm_campaign=designshare&utm_medium=link&utm_source=editor",
-      "code": "https://www.canva.com/design/DAF8qsguhmM/FvQkYbGz3FH7BGcW4mtUog/view?utm_content=DAF8qsguhmM&utm_campaign=designshare&utm_medium=link&utm_source=editor"
-    }
-  },
-  {
-    "name": "Comic Design",
-    "desc": "A Comic Series for Champak Magzine - Aaj Kitna Acha Din Hai",
-    "image": "achaDinComic",
-    "category": "graphicDesign",
-    "links": {
-      "view": "https://www.canva.com/design/DAF9m1JBaiQ/KODUG8SslE7v4IFBe7CwwQ/view?utm_content=DAF9m1JBaiQ&utm_campaign=designshare&utm_medium=link&utm_source=editor",
-      "code": "https://www.canva.com/design/DAF9m1JBaiQ/KODUG8SslE7v4IFBe7CwwQ/view?utm_content=DAF9m1JBaiQ&utm_campaign=designshare&utm_medium=link&utm_source=editor"
-    }
-  },
-  {
     "name": "Enord Community MERN",
     "desc": "Enord Community for Drone and Tech enthusiasts. Build using MERN Stack and authentication using Firebase.",
     "image": "EnordCommunity",
@@ -81,20 +41,60 @@
   },
   
   {
-    "name": "#",
-    "desc": "#",
-    "image": "flipkartphp",
-    "category": "react",
+    "name": "E-Kiraya",
+    "desc": "Project build in SRM Build 4.0 - Hackathon providing a portal for tenant and owner for tarnsaction in Crypto's integrated Metamask Wallet. ",
+    "image": "E-Kiraya",
+    "category": "basicweb",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://devfolio.co/projects/e-kiraya-e7f8",
+      "code": "https://github.com/Shashwat27sri/e-Kiraya-SRM-Build-4.0"
+    }
+  },
+  {
+    "name": "Social Media- GermanLeap ",
+    "desc": "Instagram post Design For GermanLeap ",
+    "image": "Germanleap",
+    "category": "graphicDesign",
+    "links": {
+      "view": "https://www.canva.com/design/DAF7uPY5nGI/iTWBHlnYzDTfVzVRhoMrCA/view?utm_content=DAF7uPY5nGI&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+      "code": "https://www.canva.com/design/DAF7uPY5nGI/iTWBHlnYzDTfVzVRhoMrCA/view?utm_content=DAF7uPY5nGI&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+    }
+  },
+  {
+    "name": "Print Media - Delhi Landscape ",
+    "desc": " Flyer Design for Delhi Landscape Innovation ",
+    "image": "DelhiLandscape",
+    "category": "graphicDesign",
+    "links": {
+      "view": "https://www.canva.com/design/DAF8wKlKaMY/wKKnCt99ky509utQIdOI-A/view?utm_content=DAF8wKlKaMY&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+      "code": "https://www.canva.com/design/DAF8wKlKaMY/wKKnCt99ky509utQIdOI-A/view?utm_content=DAF8wKlKaMY&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+    }
+  },
+  {
+    "name": "Magzine Design",
+    "desc": "Magzine Design for 2024 Proposal",
+    "image": "magzineProposal",
+    "category": "graphicDesign",
+    "links": {
+      "view": "https://www.canva.com/design/DAF8qsguhmM/FvQkYbGz3FH7BGcW4mtUog/view?utm_content=DAF8qsguhmM&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+      "code": "https://www.canva.com/design/DAF8qsguhmM/FvQkYbGz3FH7BGcW4mtUog/view?utm_content=DAF8qsguhmM&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+    }
+  },
+  {
+    "name": "Comic Design",
+    "desc": "A Comic Series for Champak Magzine - Aaj Kitna Acha Din Hai",
+    "image": "achaDinComic",
+    "category": "graphicDesign",
+    "links": {
+      "view": "https://www.canva.com/design/DAF9m1JBaiQ/KODUG8SslE7v4IFBe7CwwQ/view?utm_content=DAF9m1JBaiQ&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+      "code": "https://www.canva.com/design/DAF9m1JBaiQ/KODUG8SslE7v4IFBe7CwwQ/view?utm_content=DAF9m1JBaiQ&utm_campaign=designshare&utm_medium=link&utm_source=editor"
     }
   },
   {
     "name": "#",
     "desc": "#",
-    "image": "jspro",
-    "category": "basicweb",
+    "image": "flipkartphp",
+    "category": "react",
     "links": {
       "view": "#",
       "code": "#"
