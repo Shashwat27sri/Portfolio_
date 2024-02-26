@@ -112,7 +112,7 @@ fetchData().then(data => {
 function showProjects(projects) {
   let projectsContainer = document.querySelector("#work .box-container");
   let projectHTML = "";
-  projects.slice(0, 10).filter(project => project.category != "graphicDesign").forEach(project => {
+  projects.slice(0, 10).filter(project => project.category != "react").forEach(project => {
       projectHTML += `
       <div class="box tilt">
     <img draggable="false" src="assets/projects/${project.image}.png" alt="project" />
@@ -234,7 +234,7 @@ srtop.reveal('.skills .container .bar', { delay: 300 });
 srtop.reveal('.education .box', { interval: 200 });
 
 /* SCROLL PROJECTS */
-srtop.reveal('.work .box-container', { interval: 300 });
+srtop.reveal('.work .box-container', { interval: 500 });
 
 /* SCROLL EXPERIENCE */
 srtop.reveal('.experience .timeline', { delay: 300 });
