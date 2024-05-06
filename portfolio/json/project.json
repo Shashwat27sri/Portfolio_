@@ -10,6 +10,16 @@
     }
   },
   {
+    "name": "Heart Disease Detection System",
+    "desc": "Online platform for predicting and detecting the presence of heart disease in patient based on the Machine Learning and Deep Learning.",
+    "image": "HeartDetection",
+    "category": "basicweb",
+    "links": {
+      "view": "https://heart-disease-detection-and-prediction.vercel.app/",
+      "code": "https://github.com/Shashwat27sri/Heart-Disease-Detection-and-Prediction"
+    }
+  },
+  {
     "name": " DigiRepo E-Library",
     "desc": "An online portal having a collection of thousand's of interesting books and novels for users.",
     "image": "E- library",
